@@ -184,7 +184,7 @@ Note: The response includes a maximum of 250 commits. If you are working with a 
 Name | Type | Description
 -----|------|-------------
 `commit_message`|`string`| The message that will be used for the merge commit
-`sha`|`string`| SHA that pull request head must match to allow merge
+`sha`|`string`| Full, 40-character SHA that pull request head must match to allow merge. Partial (even if unique) SHA will not be accepted
 
 
 ### Response if merge was successful
